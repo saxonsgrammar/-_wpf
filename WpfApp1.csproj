@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Audio\X2Download.app - Алипов разбирает видео Росова про евгенику %2864 kbps%29.mp3" />
+    <None Remove="Audio\дед кэн танцы.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\дед кэн танцы.mp3" />
+  </ItemGroup>
+
+</Project>
